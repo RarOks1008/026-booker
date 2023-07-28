@@ -90,4 +90,6 @@ Modal for adding your own property - price input.
 
 Page when loading is being done.
 
-## Run the application using command *npm run dev*
+## Commands
+
+Run the application using command *npm run dev*
