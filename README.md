@@ -1,34 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Booker
 
-## Getting Started
+*Responsive, web application created using NextJS for booking properties, and managing your properties.*
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Application Desing
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### *Single Property page*
+![Single Property Image](git-image/image1.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Page of a single property with all about that property.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### *Home page*
+![Home Image](git-image/image2.png)
 
-## Learn More
+Home page of the application with all the properties and possibility to filter.
 
-To learn more about Next.js, take a look at the following resources:
+### *Login page*
+![Login Image](git-image/image3.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Page to login with credentials or google or github login.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### *Register page*
+![Register Image](git-image/image4.png)
 
-## Deploy on Vercel
+Page to register with credentials or google or github registration.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### *No Matches page*
+![No Matches Image](git-image/image5.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Page when filters find no property with given filters.
+
+### *First Filter page*
+![First Filter Image](git-image/image6.png)
+
+Modal for filtering properties - selecting the destination.
+
+### *First Filter Select page*
+![Second Filter Select Image](git-image/image7.png)
+
+Modal for filtering properties - countries dropdown.
+
+### *Second Filter page*
+![Second Filter Image](git-image/image8.png)
+
+Modal for filtering properties - date selection.
+
+### *Third Filter page*
+![Third Filter Image](git-image/image9.png)
+
+Modal for filtering properties - number of guests, rooms and bathrooms input.
+
+### *First Booker page*
+![First Booker Image](git-image/image10.png)
+
+Modal for adding your own property - selecting a category.
+
+### *Second Booker page*
+![Second Booker Image](git-image/image11.png)
+
+Modal for adding your own property - selecting the location of the property.
+
+### *Third Booker page*
+![Third Booker Image](git-image/image12.png)
+
+Modal for adding your own property - number of guests, rooms and bathrooms input.
+
+### *Forth Booker page*
+![Forth Booker Image](git-image/image13.png)
+
+Modal for adding your own property - photo input.
+
+### *Forth Booker Image page*
+![Forth Booker Image Image](git-image/image14.png)
+
+Modal for adding your own property - options for uploading the image.
+
+### *Fifth Booker page*
+![Fifth Booker Image](git-image/image15.png)
+
+Modal for adding your own property - title and description properties.
+
+### *Sixth Booker page*
+![Sixth Booker Image](git-image/image16.png)
+
+Modal for adding your own property - price input.
+
+### *Loading page*
+![Loading Image](git-image/image17.png)
+
+Page when loading is being done.
+
+## Run the application using command *npm run dev*
