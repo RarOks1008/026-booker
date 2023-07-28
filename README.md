@@ -92,4 +92,4 @@ Page when loading is being done.
 
 ## Commands
 
-Run the application using command *npm run dev*
+Run the application using command *npm run dev*.
